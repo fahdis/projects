@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+	<struts>
+	<package name="inscription" namespace="inscription">
+				<action name="creerCompteGratuit"></action>
+				<action name="creerCompteProfessional"></action>
+				<action name="creerCompteEntreprise"></action>
+				<action name=""></action>
+	</package>
+
+	<package name="connection" namespace="connection">
+				<action name="enregister"></action>
+	</package>
+	
+	
+	<package name="recherche" namespace="recherche">
+				<action name="rechercheRapide"></action>
+				<action name="rechercheAvancee"></action>
+	</package>
+	
+	<package name="telecharger" namespace="download">
+				<action name="ajouterFichier"></action>
+				<action name="supprimerFichier"></action>
+				<action name="vider"></action>
+				<action name="afficher"></action>
+	</package>
+	
+	<package name="charger" namespace="charger">
+				<action name="ajouterFichier"></action>
+	
+	</package>
+	
+	<package name="compte" namespace="compte">
+
+	</package>
+	
+	<package name="fichiers" namespace="compte">
+				<action name="ajouterDossier"></action>
+				<action name="ajouterCategorie"></action>
+	
+	
+	</package>
+	
+	
+	</struts>
